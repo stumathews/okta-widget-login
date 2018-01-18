@@ -7,9 +7,10 @@ export class Okta {
 
   constructor() {
     this.widget = new OktaSignIn({
-      baseUrl: 'https://{yourOktaDomain}.com',
-      clientId: '{clientId}',
-      redirectUri: 'http://localhost:4200',
+      baseUrl: 'https://lusid.okta.com',
+
+      clientId: '0oa5ao43cLgHp80RG2p6',
+      redirectUri: 'http://localhost.finboure.com:4200',
       authParams: {
         issuer: 'default'
       }
